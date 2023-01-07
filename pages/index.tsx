@@ -28,7 +28,7 @@ export default function Home() {
             >
               By{' '}
               <img
-                src={`/nextProject/vercel.svg`}
+                src='/nextProject/vercel.svg'
                 alt="Vercel Logo"
                 className={styles.vercelLogo}
                 width={100}
