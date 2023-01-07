@@ -41,7 +41,7 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
+            src={`${process.env.BASE_PATH}/next.svg`}
             alt="Next.js Logo"
             width={180}
             height={37}
@@ -49,7 +49,7 @@ export default function Home() {
           />
           <div className={styles.thirteen}>
             <Image
-              src="/thirteen.svg"
+              src={`${process.env.BASE_PATH}/thirteen.svg`}
               alt="13"
               width={40}
               height={31}
