@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    BASE_PATH: 'nextProject' 
+    BASE_PATH: `/nextProject` 
   }
 }
 
